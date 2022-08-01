@@ -6,7 +6,7 @@
 }
 
 .design-container {
-	padding: 200px 100px 200px 100px;
+	padding: 200px 100px 300px 100px;
 	text-align: center;
 	background-color: #FBFBFB;
 }
@@ -32,14 +32,42 @@
     box-sizing: border-box;
 }
 
-.design-content li h4 {
-	text-align: left;
-	padding-left: 33px;
-	padding-bottom: 20px;
+.design-content li img {
+	padding: 5px 0;
+    max-width: 70%;  /*画像のはみだしを防ぐ*/
+    height: auto;  /*画像の縦横比を維持 */
 }
 
-.design-content li img {
-	padding: 100px 0;
+.design-content2 {
+	margin: 100px 100px;
+}
+
+.design-content2 li {
+	list-style: none;
+	float: right;
+	width: calc(100%/4);  /*←画像を横に4つ並べる場合*/
+    box-sizing: border-box;
+}
+
+.design-content2 li img {
+	padding: 5px 0;
+    max-width: 70%;  /*画像のはみだしを防ぐ*/
+    height: auto;  /*画像の縦横比を維持 */
+}
+
+.design-content3 {
+	margin: 100px 100px;
+}
+
+.design-content3 li {
+	list-style: none;
+	float: right;
+	width: calc(100%/4);  /*←画像を横に4つ並べる場合*/
+    box-sizing: border-box;
+}
+
+.design-content3 li img {
+	padding: 5px 0;
     max-width: 70%;  /*画像のはみだしを防ぐ*/
     height: auto;  /*画像の縦横比を維持 */
 }
@@ -67,13 +95,13 @@
 .work-content li {
 	list-style: none;
 	float: left;
-	width: calc(100%/2);  /*←画像を横に2つ並べる場合*/
+	width: calc(100%/3);  /*←画像を横に2つ並べる場合*/
     padding: 0px 10px;  /*←画像の上下に20pxの余白を入れる場合*/
     box-sizing: border-box;
 }
 
 .work-content li img {
 	padding: 100px 0;
-    max-width: 40%;  /*画像のはみだしを防ぐ*/
+    max-width: 60%;  /*画像のはみだしを防ぐ*/
     height: auto;  /*画像の縦横比を維持 */
 }
