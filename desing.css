@@ -1,0 +1,239 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.design-content {
+	padding: 0 0 800px 0;
+}
+
+.illustration-container {
+	margin: 300px 0 50px 0;
+	text-align: center;
+}
+
+img{ width:100%; }
+.box_around{
+	width:40%;
+	float:left;
+	margin: 0 0 0 380px;
+}
+
+.detail ul{
+	box-sizing: border-box;
+	display:inline-block;
+	width:100%;
+	padding:0;
+	margin:0;
+}
+
+.detail ul li{
+	display:inline-block;
+	width:16.6%;
+	float:left;
+}
+
+.detail ul li img{
+	max-width:100%;
+	margin:0 auto;
+	display:block;
+}
+
+.sketch-content {
+	text-align: center;
+	padding: 300px 0 300px 0;
+}
+
+.sketch-container {
+	margin: 0 0 100px 0;
+	text-align: center;
+}
+
+.sketch-content li {
+	list-style: none;
+    width: calc(65%/7);  /*←画像を横に2つ並べる場合*/
+    padding: 0 5px 0 5px;  /*←画像の左右に5pxの余白を入れる場合*/
+    box-sizing: border-box;
+	display: inline-block;
+}
+
+.sketch-content li img {
+	max-width: 100%;  /*画像のはみだしを防ぐ*/
+    height: auto;
+}
+
+.sketch-content li img:hover {
+	opacity: 0.8;
+}
+
+.logo-container {
+	margin: 200px 0 0 0;
+}
+
+.logo-content {
+	text-align: center;
+	padding-top: 100px;
+}
+
+.logo-content li {
+	list-style: none;
+    width: calc(100%/1);  /*←画像を横に2つ並べる場合*/
+    padding: 0px 5px 5px 5px;  /*←画像の左右に5pxの余白を入れる場合*/
+    box-sizing: border-box;
+	display: inline-block;
+}
+
+.logo-content li img {
+	max-width: 50%;  /*画像のはみだしを防ぐ*/
+    height: auto;
+}
+
+.logo-content li img:hover {
+	opacity: 0.8;
+}
+
+.logo-content h3 {
+	text-align: left;
+	padding-left: 200px;
+}
+
+.logo-content p {
+	text-align: left;
+	padding-left: 200px;
+}
+
+
+.product-content {
+	padding: 0 0 300px 0;
+}
+
+.product-container {
+	text-align: center;
+	margin: 300px 0 0 0;
+}
+
+.game-content {
+	text-align: center;
+	padding: 100px 0 0 0;
+}
+
+.game-content h3 {
+	text-align: left;
+	padding-left: 200px;
+}
+
+.game-content p {
+	text-align: left;
+	padding-left: 200px;
+}
+
+.game-content li {
+	list-style: none;
+    width: calc(65%/5);  /*←画像を横に2つ並べる場合*/
+    padding: 0px 5px 5px 5px;  /*←画像の左右に5pxの余白を入れる場合*/
+    box-sizing: border-box;
+	display: inline-block;
+}
+
+.game-content li img {
+	max-width: 100%;  /*画像のはみだしを防ぐ*/
+    height: auto;
+}
+
+.game-content li img:hover {
+	opacity: 0.8;
+}
+
+.freepaper-content {
+	text-align: center;
+	padding: 150px 0 0 0;
+}
+
+.freepaper-content h3 {
+	text-align: left;
+	padding-left: 200px;
+}
+
+.freepaper-content p {
+	text-align: left;
+	padding-left: 200px;
+}
+
+.freepaper-content li {
+	list-style: none;
+    width: calc(65%/4);  /*←画像を横に2つ並べる場合*/
+    padding: 0px 5px 5px 5px;  /*←画像の左右に5pxの余白を入れる場合*/
+    box-sizing: border-box;
+	display: inline-block;
+}
+
+.freepaper-content li img {
+	max-width: 100%;  /*画像のはみだしを防ぐ*/
+    height: auto;
+}
+
+.freepaper-content li img:hover {
+	opacity: 0.8;
+}
+
+.postcard-content {
+	text-align: center;
+	padding: 150px 0 0 0;
+}
+
+.postcard-content h3 {
+	text-align: left;
+	padding-left: 200px;
+}
+
+.postcard-content p {
+	text-align: left;
+	padding-left: 200px;
+}
+
+.postcard-content li {
+	list-style: none;
+    width: calc(63%/4);  /*←画像を横に2つ並べる場合*/
+    padding: 0px 5px 5px 5px;  /*←画像の左右に5pxの余白を入れる場合*/
+    box-sizing: border-box;
+	display: inline-block;
+}
+
+.postcard-content li img {
+	max-width: 100%;  /*画像のはみだしを防ぐ*/
+    height: auto;
+}
+
+.postcard-content li img:hover {
+	opacity: 0.8;
+}
+
+.cycle-content {
+	text-align: center;
+	padding: 150px 0 200px 0;
+}
+
+.cycle-content h3 {
+	text-align: left;
+	padding-left: 200px;
+}
+
+.cycle-content p {
+	text-align: left;
+	padding-left: 200px;
+}
+
+.cycle-content li {
+	list-style: none;
+    width: calc(70%/5);  /*←画像を横に2つ並べる場合*/
+    padding: 0px 5px 5px 5px;  /*←画像の左右に5pxの余白を入れる場合*/
+    box-sizing: border-box;
+	display: inline-block;
+}
+
+.cycle-content li img {
+	max-width: 100%;  /*画像のはみだしを防ぐ*/
+    height: auto;
+}
+
+.cycle-content li img:hover {
+	opacity: 0.8;
+}
