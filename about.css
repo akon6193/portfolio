@@ -1,0 +1,21 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.about-content {
+	padding: 0 0 100px 0;
+}
+
+.main-icon {
+	width: 50%;
+}
+
+.main-icon img {
+	width: 55%;
+    box-sizing: border-box;
+	margin: 100px 100px 100px 60px;
+	float: left;
+}
+
+.main-about  {
+	padding: 200px 100px 100px 100px;
+}
