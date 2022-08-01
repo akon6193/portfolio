@@ -1,0 +1,91 @@
+@charset "UTF-8";
+/* CSS Document */
+/* Global */
+/*対象のテキスト*/
+.line-1 {
+	margin: 80px 0 100px 110px;
+    position: relative;
+    top: 50%;
+    width: 24em;
+    border-right: 2px solid rgba(255,255,255,.75);
+    white-space: nowrap;
+    overflow: hidden;
+    transform: translateY(-50%);
+}
+
+.line-1 span {
+	color: #FB8100;
+}
+
+.line-3 {
+	margin: 80px 0 0 110px;
+    position: relative;
+    top: 50%;
+    width: 24em;
+    border-right: 2px solid rgba(255,255,255,.75);
+    white-space: nowrap;
+    overflow: hidden;
+    transform: translateY(-50%);
+}
+
+.line-3 span {
+	color: #FF00F5;
+}
+
+.line-4 {
+	margin: 80px 0 0 110px;
+    position: relative;
+    top: 50%;
+    width: 24em;
+    border-right: 2px solid rgba(255,255,255,.75);
+    white-space: nowrap;
+    overflow: hidden;
+    transform: translateY(-50%);
+}
+
+.line-4 span {
+	color: #4FBCF5;
+}
+
+.line-5 {
+	margin: 80px 0 0 110px;
+    position: relative;
+    top: 50%;
+    width: 24em;
+    border-right: 2px solid rgba(255,255,255,.75);
+    white-space: nowrap;
+    overflow: hidden;
+    transform: translateY(-50%);
+}
+
+.line-5 span {
+	color: red;
+}
+
+.line-2{
+	margin: 80px 0 0 150px;
+    position: relative;
+    top: 50%;  
+    width: 50em;
+	font-size: 15px;
+    border-right: 2px solid rgba(255,255,255,.75);
+    white-space: nowrap;
+    overflow: hidden;
+    transform: translateY(-50%);    
+}
+
+/* Animation */
+.anim-typewriter {/*アニメーションセッティング*/
+	animation: typewriter 4s steps(40) 1s 1 normal both,
+	blinkTextCursor 300ms steps(40) infinite normal;
+}
+
+@keyframes typewriter {/*タイプライターライクなアニメーション*/
+	from{width: 0;}
+	to{width: 33em;}
+}
+
+@keyframes blinkTextCursor {/*点滅するカーソルのアニメーション*/
+	from{border-right-color: rgba(255,255,255,0.00)}
+	to{border-right-color: transparent;}
+}
