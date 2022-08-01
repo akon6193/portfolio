@@ -1,0 +1,153 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.work-rigare {
+	margin: 50px 0 0 0;
+	text-align: center;
+	padding: 100px 0 0 0;
+}
+
+.work-rigare h3 {
+	text-align: left;
+	padding-left: 200px;
+}
+
+.work-rigare p {
+	text-align: left;
+	padding-left: 200px;
+}
+
+.work-rigare li {
+	list-style: none;
+    width: calc(70%/5);  /*←画像を横に2つ並べる場合*/
+    padding: 0px 5px 5px 5px;  /*←画像の左右に5pxの余白を入れる場合*/
+    box-sizing: border-box;
+	display: inline-block;
+}
+
+.work-rigare li img {
+	max-width: 100%;  /*画像のはみだしを防ぐ*/
+    height: auto;
+}
+
+.work-rigare li img:hover {
+	opacity: 0.8;
+}
+
+
+
+.work-rigare-2 {
+	margin: 50px 0 0 0;
+	text-align: center;
+}
+
+.work-rigare-2 h3 {
+	text-align: left;
+	padding-left: 200px;
+}
+
+.work-rigare-2 p {
+	text-align: left;
+	padding-left: 200px;
+}
+
+.work-rigare-2 li {
+	list-style: none;
+    width: calc(70%/1);  /*←画像を横に2つ並べる場合*/
+    padding: 0px 5px 5px 5px;  /*←画像の左右に5pxの余白を入れる場合*/
+    box-sizing: border-box;
+	display: inline-block;
+}
+
+.work-rigare-2 li img {
+	max-width: 100%;  /*画像のはみだしを防ぐ*/
+    height: auto;
+}
+
+.work-rigare-2 li img:hover {
+	opacity: 0.8;
+}
+
+.work-irie {
+	margin: 50px 0 0 0;
+	text-align: center;
+	padding: 100px 0 200px 0;
+}
+
+.work-irie h3 {
+	text-align: left;
+	padding-left: 200px;
+}
+
+.work-irie p {
+	text-align: left;
+	padding-left: 200px;
+}
+
+.work-irie li {
+	list-style: none;
+    width: calc(70%/5);  /*←画像を横に2つ並べる場合*/
+    padding: 0px 5px 5px 5px;  /*←画像の左右に5pxの余白を入れる場合*/
+    box-sizing: border-box;
+	display: inline-block;
+}
+
+.work-irie li img {
+	max-width: 100%;  /*画像のはみだしを防ぐ*/
+    height: auto;
+}
+
+.work-irie li img:hover {
+	opacity: 0.8;
+}
+
+.work-pointofline {
+	margin: 50px 0 0 0;
+	text-align: center;
+	padding: 100px 0 200px 0;
+}
+
+.work-pointofline h3 {
+	text-align: left;
+	padding-left: 200px;
+}
+
+.work-pointofline p {
+	text-align: left;
+	padding-left: 200px;
+}
+
+.work-pointofline li {
+	list-style: none;
+    width: calc(70%/5);  /*←画像を横に2つ並べる場合*/
+    padding: 0px 5px 5px 5px;  /*←画像の左右に5pxの余白を入れる場合*/
+    box-sizing: border-box;
+	display: inline-block;
+}
+
+.work-pointofline li img {
+	max-width: 100%;  /*画像のはみだしを防ぐ*/
+    height: auto;
+}
+
+.work-pointofline li img:hover {
+	opacity: 0.8;
+}
+
+
+.rigare-content {
+	padding: 50px 0 100px 0;
+}
+
+.irie-content {
+	padding: 50px 0 100px 0;
+}
+
+.pointofline-content {
+	padding: 50px 0 100px 0;
+}
+
+.service-container h1 {
+	display: inline-block;
+	border-bottom: 1.5px solid #707070;
+}
