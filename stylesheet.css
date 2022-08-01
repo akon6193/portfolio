@@ -1,0 +1,182 @@
+@charset "UTF-8";
+/* CSS Document */
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+h2 {
+	font-size: 30px;
+}
+h3 {
+	font-size: 20px;
+}
+
+p {
+	font-size: 16px;
+	line-height: 1.8;
+}
+
+body {
+	height: 100%;
+	width: 100%;
+	background-color: #F3F3F3;
+}
+
+.wrapper{
+    height: 100%;
+    min-height: 100vh;
+    position: relative;/*←相対位置*/
+    padding-bottom: 325px;/*←footerの高さ*/
+    box-sizing: border-box;/*←全て含めてmin-height:100vhに*/
+}
+
+.header-container {
+	background-color: #212121;
+	width: 100%;
+	height: auto;
+}
+
+.top-banner {
+	display: flex;
+    flex-wrap: wrap;
+	width: 50%;
+	float: left;
+}
+
+.top-banner img {
+	width: 60%;
+	height: auto;
+	box-sizing: border-box;
+	padding: 50px 0 0 100px;  /*←画像の上下に20pxの余白を入れる場合*/
+}
+
+.sns-icon{
+	overflow: hidden;
+	width: 50%;
+	text-align: right;
+    box-sizing: border-box;
+}
+
+.sns-icon img {
+    max-width: 3%;  /*画像のはみだしを防ぐ*/
+    height: auto;  /*画像の縦横比を維持 */
+	padding: 100px 50px 0 0;  /*←画像の上下に35pxの余白を入れる場合*/
+}
+
+/*headerのmenu*/
+.menu {
+	display: flex;
+	height: 2rem;
+	margin: 0 auto;
+	padding: 0 0 30px 0;
+	width: 1000px;
+}
+
+.menu > li {/*親階層のみ幅を13％にする*/
+	width: 13%;
+	left: 450px;
+}
+
+/*全てのリスト・リンク共通*/
+.menu li {
+	list-style: none;
+	position: relative;
+}
+
+.menu li a {
+	color: #FFFFFF;
+	display: block;
+	height: 2rem;
+	line-height: 2rem;
+	text-decoration: none;
+	width: 100%;
+}
+
+.menu li a:hover {
+	color: #959595;
+}
+
+/*子階層以降共通*/
+.menu li li {
+	height: 0;
+	width: 8rem;
+	overflow: hidden;
+	transition: .5s;
+	font-size: 11px;
+	background-color: #B23336;
+	padding-left: 5px
+}
+
+.menu li li a {
+	color: #FFFFFF;
+}
+
+.menu li li a:hover {
+	color: #959595;
+}
+
+.menu li:hover > ul > li {
+	height: 2rem;
+	border-bottom: 1px solid #eee;
+}
+
+footer{
+    width: 100%;
+    background-color: #212121;
+    padding: 50px 0;
+    position: absolute;/*←絶対位置*/
+    bottom: 0; /*下に固定*/
+}
+
+/*footerのmenu*/
+.menu-2 {
+	display: flex;
+	height: 2rem;
+	margin: 0 auto;
+	width: 1000px;
+}
+
+.menu-2 > li {/*親階層のみ幅を13％にする*/
+	width: 14%;
+	left: 320px;
+	font-size:15px;
+}
+
+/*全てのリスト・リンク共通*/
+.menu-2 li {
+	list-style: none;
+	position: relative;
+}
+
+.menu-2 li a {
+	color: #FFFFFF;
+	line-height: 2rem;
+	text-decoration: none;
+}
+
+.menu-2 li a:hover {
+	color: #959595;
+}
+
+/*子階層以降共通*/
+.menu-2 li li {
+	height: 2rem;
+	width: 8rem;
+	font-size: 11px;
+	padding:0 5px;
+	border-left: 1px solid #FFFFFF;
+	
+}
+
+.menu-2 li li a:hover {
+	color: #959595;
+}
+
+.copy {
+	width: 1000px;
+	border-top: 1px solid #FFFFFF;
+	margin: 150px auto 0 auto;
+	color: #656565;
+	padding: 20px 0 0 0;
+}
